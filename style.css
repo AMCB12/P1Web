@@ -1,77 +1,71 @@
-/* Estilos generales */
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 body {
-  font-family: Arial, sans-serif;
+  font-family: 'Oswald', sans-serif;
   margin: 0;
   padding: 0;
+text-align: center;
 }
 
 header {
-  background-color: #333;
+	font-family: 'Oswald', sans-serif;
+  background-color: #ff0404;
   color: #fff;
+  text-align: center;
   padding: 20px;
 }
 
-nav ul {
-  list-style: none;
-  padding: 0;
+.ip{
+    width: 50px; 
+    height: auto;
+	display: inline-block;
+    vertical-align: top;
+text-align: right;
 }
 
-nav ul li {
-  display: inline;
-  margin-right: 20px;
+.tp {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: top;
+text-align: right;
 }
 
-nav ul li a {
-  color: #fff;
-  text-decoration: none;
+#ipp{
+    width: 100px; 
+    height: auto;
+	display: inline-block;
+    vertical-align: top;
 }
 
-.hero {
+#if {
   background-image: url('imagen-de-fondo.jpg');
   color: #fff;
   text-align: center;
   padding: 100px 0;
 }
 
-.cta-button {
+.b {
   display: inline-block;
-  background-color: #ff6600;
+  background-color: #ff0404;
   color: #fff;
-  padding: 10px 20px;
-  text-decoration: none;
-  border-radius: 5px;
+  padding: 30px 60px;
+  border-radius: 10px;
 }
 
-.features {
-  padding: 50px 20px;
-  text-align: center;
+#ilp{
+    width: 450px; 
+    height: auto;
+	display: inline-block;
+    vertical-align: top;
 }
 
-.features .feature {
-  margin-bottom: 30px;
-}
-
-.features .feature img {
-  max-width: 100%;
-  height: auto;
-}
-
-.pricing {
-  background-color: #f4f4f4;
-  padding: 50px 20px;
-  text-align: center;
-}
-
-.plan {
-  display: inline-block;
-  background-color: #fff;
-  padding: 20px;
-  margin: 20px;
-  border-radius: 5px;
+#tg{
+	font-size: 30px; 
+	font-weight: bold;
 }
 
 footer {
-  background-color: #333;
+	font-family: 'Oswald', sans-serif;
+  background-color: #ff0404;
   color: #fff;
   text-align: center;
   padding: 20px;
