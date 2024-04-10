@@ -4,19 +4,49 @@
       margin: 0;
       padding: 0;
       display: flex;
-      justify-content: center;
-      align-items: center;
-      height: 100vh;
-      background-image: url('Assets/Banderas.jpg'); 
+      flex-direction: column;
+      min-height: 100vh;
+      background-image: url('Assets/Banderas.jpg');
       background-size: cover;
       background-position: center;
+      background-attachment: fixed; /* Mantener la imagen fija */
+    }
+
+    header {
+      background-color: rgba(0, 0, 0, 0.5); /* Transparencia del encabezado */
+      color: #fff;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    #title {
+      margin: 0;
+    }
+
+    #description {
+      margin: 0;
+      
+    }
+
+
+    #language-buttons {
+      text-align: right;
     }
 
     #content {
+      position: absolute;
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.7); 
-      padding: 20px;
-      border-radius: 10px;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      padding: 50px;
+      background-color: rgba(0, 0, 0, 0.5); /* Fondo transparente */
+      max-width: 80%; /* Ancho máximo del contenido */
+    }
+    
+    #content h1,
+    #content p {
+      color: white; /* Color del texto */
     }
 
     button {
@@ -28,6 +58,7 @@
       color: #fff;
       border: none;
       border-radius: 5px;
+      text-align: right;
     }
 
     button:hover {

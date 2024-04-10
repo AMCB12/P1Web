@@ -3,20 +3,26 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Internacional</title>
+  <title>Language Switcher</title>
   <link rel="stylesheet" href="style.css">
-  
-</head>
+  </head>
 <body>
-  <div id="content">
-    <h1 id="title"></h1>
-    <p id="description"></p>
+  <header>
+        <div id="language-buttons">
     <button onclick="changeLanguage('en')">English</button>
     <button onclick="changeLanguage('es')">Español</button>
-    <button onclick="changeLanguage('it')">Italiano</button>
+    <button onclick="changeLanguage('it')">italien</button>
     <button onclick="changeLanguage('de')">Deutsch</button>
     <button onclick="changeLanguage('fr')">Français</button>
   </div>
+  </header>
+
+  <div id="content">
+    <!-- Contenido centralizado -->
+    <h1 id="title">Language Switcher</h1>
+    <p id="description">Choose your language:</p>
+  </div>
+
   <script src="script.js"></script>
 </body>
 </html>
