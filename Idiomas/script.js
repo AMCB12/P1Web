@@ -22,7 +22,7 @@ const languageData = {
     }
   };
   
-  // Function to change language
+
   function changeLanguage(lang) {
     document.getElementById('title').innerText = languageData[lang]['title'];
     document.getElementById('description').innerText = languageData[lang]['description'];

@@ -7,14 +7,14 @@
       justify-content: center;
       align-items: center;
       height: 100vh;
-      background-image: url('Assets/Banderas.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
+      background-image: url('Assets/Banderas.jpg'); 
       background-size: cover;
       background-position: center;
     }
 
     #content {
       text-align: center;
-      background-color: rgba(255, 255, 255, 0.7); /* Cambia el valor de la opacidad según lo desees */
+      background-color: rgba(255, 255, 255, 0.7); 
       padding: 20px;
       border-radius: 10px;
     }
