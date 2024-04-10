@@ -27,4 +27,8 @@ const languageData = {
     document.getElementById('title').innerText = languageData[lang]['title'];
     document.getElementById('description').innerText = languageData[lang]['description'];
   }
+
+  $(document).ready(function() {
+    changeLanguage('es');
+  });
   

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cambio de Idioma</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <div id="language-buttons">
+      <button onclick="changeLanguage('es')">Español</button>
+      <button onclick="changeLanguage('it')">Italiano</button>
+      <button onclick="changeLanguage('fr')">Francés</button>
+      <button onclick="changeLanguage('en')">Inglés</button>
+      <button onclick="changeLanguage('de')">Alemán</button>
+    </div>
+  </header>
+  
+  <div id="content">
+    <div id="banner">
+      <h1 id="title"></h1>
+      <h2 id="subtitle"></h2>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>

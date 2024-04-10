@@ -1,0 +1,23 @@
+{
+    "en": {
+        "title": "Welcome",
+        "subtitle": "Thank you very much for visiting my page, have a good day"
+      },
+      "es": {
+        "title": "Bienvenido",
+        "subtitle": "Muchas gracias por visitar mi pagina, que tengas un buen día"
+      },
+      "it": {
+        "title": "Benvenuto",
+        "subtitle": "Grazie mille per aver visitato la mia pagina, buona giornata"
+      },
+      "de": {
+        "title": "Willkommen",
+        "subtitle": "Vielen Dank für Ihren Besuch auf meiner Seite. Ich wünsche Ihnen einen schönen Tag"
+      },
+      "fr": {
+        "title": "Bienvenue",
+        "subtitle": "Merci beaucoup d'avoir visité ma page, bonne journée"
+      }
+  }
+  
