@@ -2,23 +2,23 @@
 const languageData = {
     "en": {
       "title": "Welcome",
-      "description": "This is a simple language switcher example."
+      "description": "Thank you very much for visiting my page, have a good day"
     },
     "es": {
       "title": "Bienvenido",
-      "description": "Este es un ejemplo simple de cambio de idioma."
+      "description": "Muchas gracias por visitar mi pagina, que tengas un buen día"
     },
     "it": {
       "title": "Benvenuto",
-      "description": "Questo è un semplice esempio di cambio lingua."
+      "description": "Grazie mille per aver visitato la mia pagina, buona giornata"
     },
     "de": {
       "title": "Willkommen",
-      "description": "Dies ist ein einfaches Beispiel für den Sprachwechsel."
+      "description": "Vielen Dank für Ihren Besuch auf meiner Seite. Ich wünsche Ihnen einen schönen Tag"
     },
     "fr": {
       "title": "Bienvenue",
-      "description": "Ceci est un exemple simple de commutation de langue."
+      "description": "Merci beaucoup d'avoir visité ma page, bonne journée"
     }
   };
   

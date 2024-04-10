@@ -1,18 +1,35 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    height: 100vh;
-  }
-  
-  #content {
-    text-align: center;
-  }
-  
-  button {
-    margin: 5px;
-  }
-  
+
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      background-image: url('Assets/Banderas.jpg'); /* Cambia 'background-image.jpg' por la ruta de tu imagen de fondo */
+      background-size: cover;
+      background-position: center;
+    }
+
+    #content {
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.7); /* Cambia el valor de la opacidad según lo desees */
+      padding: 20px;
+      border-radius: 10px;
+    }
+
+    button {
+      margin: 5px;
+      padding: 10px 20px;
+      font-size: 16px;
+      cursor: pointer;
+      background-color: #007bff;
+      color: #fff;
+      border: none;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
